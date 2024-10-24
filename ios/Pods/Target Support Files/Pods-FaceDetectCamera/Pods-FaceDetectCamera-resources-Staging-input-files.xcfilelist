@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-FaceDetectCamera/Pods-FaceDetectCamera-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/RNCAsyncStorage/RNCAsyncStorage_resources.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/RNDeviceInfo/RNDeviceInfoPrivacyInfo.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/React-Core/RCTI18nStrings.bundle
