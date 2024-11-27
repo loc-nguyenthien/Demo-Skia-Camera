@@ -11,3 +11,4 @@ rm -rf $TMPDIR/haste-task-*
 
 echo "Clearing watchman cache..."
 watchman watch-del-all
+npx patch-package

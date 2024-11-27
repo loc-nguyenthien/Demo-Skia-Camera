@@ -12,12 +12,12 @@ function AppNavigation(): React.ReactElement {
 
   function renderStack(): React.ReactNode {
     switch (appState) {
-      case RouteKey.AuthStack:
-        return <AuthNavigator />
-      case RouteKey.HomeStack:
-        return <HomeNavigator />
+      // case RouteKey.AuthStack:
+      //   return <AuthNavigator />
+      // case RouteKey.HomeStack:
+      //   return <HomeNavigator />
       default:
-        return <SplashScreen />
+        return <HomeNavigator />
     }
   }
 

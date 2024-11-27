@@ -1,6 +1,18 @@
 import {createNativeStackNavigator} from '@react-navigation/native-stack'
 import React from 'react'
-import {LoginScreen, SignUpScreen} from '../screens'
+import {
+  AtlasAnimateScreen,
+  CameraFaceNormalScreen,
+  CameraFaceNormalSkiaScreen,
+  CameraFaceSkiaScreen,
+  ClipImageScreen,
+  LoginScreen,
+  PaintScreen,
+  ShaderScreen,
+  ShapeScreen,
+  SignUpScreen,
+  TextScreen,
+} from '../screens'
 import HomeScreen from '../screens/HomeComponent/HomeScreen'
 import RouteKey from './RouteKey'
 import {optionsMatch} from './ScreenService'
@@ -15,6 +27,16 @@ export const HomeNavigator = () => (
       component={HomeScreen}
       options={optionsMatch(RouteKey.HomeScreen)}
     />
+    <Stack.Screen name={RouteKey.PaintScreen} component={PaintScreen} />
+    <Stack.Screen name={RouteKey.ClipImageScreen} component={ClipImageScreen} />
+    <Stack.Screen name={RouteKey.ShapeScreen} component={ShapeScreen} />
+    <Stack.Screen name={RouteKey.AtlasAnimateScreen} component={AtlasAnimateScreen} />
+    <Stack.Screen name={RouteKey.TextScreen} component={TextScreen} />
+    <Stack.Screen name={RouteKey.ShaderScreen} component={ShaderScreen} />
+
+    <Stack.Screen name={RouteKey.CameraFaceSkiaScreen} component={CameraFaceSkiaScreen} />
+    <Stack.Screen name={RouteKey.CameraFaceNormalScreen} component={CameraFaceNormalScreen} />
+    <Stack.Screen name={RouteKey.CameraFaceNormalSkiaScreen} component={CameraFaceNormalSkiaScreen} />
   </Stack.Navigator>
 )
 

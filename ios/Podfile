@@ -5,7 +5,7 @@ require Pod::Executable.execute_command('node', ['-p',
     {paths: [process.argv[1]]},
   )', __dir__]).strip
 
-platform :ios, min_ios_version_supported
+platform :ios, '14.0'
 prepare_react_native_project!
 
 linkage = ENV['USE_FRAMEWORKS']
@@ -38,8 +38,8 @@ target 'FaceDetectCamera' do
     )
       installer.pods_project.targets.each do |target|
         target.build_configurations.each do |config|
-          # NOTE: Change IPHONEOS_DEPLOYMENT_TARGET to 12.4
-          config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.4'
+          # NOTE: Change IPHONEOS_DEPLOYMENT_TARGET to 14.0
+          config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '14.0'
           # NOTE: Add `arm64` to EXCLUDED_ARCHS in Pods
           config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
         end

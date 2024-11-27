@@ -1,6 +1,13 @@
 module.exports = {
-  presets: ['module:@react-native/babel-preset'],
+  presets: ['module:metro-react-native-babel-preset'],
   plugins: [
-    'react-native-reanimated/plugin', // this has to be list last
+    ['@babel/plugin-transform-private-methods', { "loose": true }],
+    'react-native-worklets-core/plugin',
+    [
+      'react-native-reanimated/plugin',
+      {
+        processNestedWorklets: true,
+      },
+    ],
   ],
 }
