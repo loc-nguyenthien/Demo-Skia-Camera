@@ -1,5 +1,9 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+# Demo: Skia and Camera processor
+
+[Link Record for Demo](https://saigontechnology0-my.sharepoint.com/:v:/r/personal/loc_nguyent_saigontechnology_com/Documents/Recordings/%5BSDC1%20-%20Tech-Talk%5D%20-%20loc.nguyent%20-%20Introduction%20to%20Skia%20and%20Camera%20Processor%20(Filter)-20241203_140519-Meeting%20Recording.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bxeTjw)
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
